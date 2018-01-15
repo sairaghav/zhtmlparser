@@ -29,5 +29,3 @@ to
 	print zhp(htmltobeparsed)
 
 where htmltobeparsed is your input
-
-This project is licensed under the terms of the MIT license.

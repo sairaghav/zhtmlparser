@@ -17,6 +17,7 @@ OUTPUT EXAMPLE:
 Commands used:
 	
 	html_to_parse = '<script sometag>22<span>22</span></script><span>hi<script>hiii</script><script>333</script>das</span>'
+	
 	parsed_html,tag_out,text_within_tag=zhp(html_to_parse,'script','script')
 
 Output:
@@ -70,7 +71,9 @@ or
 Scenario 2: Directly parse html with zhtmlparser and obtain output
 
 1) Open the file 'zhtmlparser.py' and change the line:
-	html_to_parse = '<a href="somewebsite1233">22<span>22</span></a><span>hi<a href="hi">hiii</a><a href>333</a>das</span>'
+	
+	html_to_parse = '<script sometag>22<span>22</span></script><span>hi<script>hiii</script><script>333</script>das</span>'
+
 to
 	
 	html_to_parse = '<yourinput>'

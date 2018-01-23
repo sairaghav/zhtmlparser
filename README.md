@@ -71,12 +71,12 @@ or
 Scenario 2: Directly parse html with zhtmlparser and obtain output
 
 1) Open the file 'zhtmlparser.py' and change the line:
-	
-	html_to_parse = '<script sometag>22<span>22</span></script><span>hi<script>hiii</script><script>333</script>das</span>'
+
+html_to_parse = '<script sometag>22<span>22</span></script><span>hi<script>hiii</script><script>333</script>das</span>'
 
 to
 	
-	html_to_parse = '<yourinput>'
+html_to_parse = '<yourinput>'
 
 where <yourinput> is your input
 

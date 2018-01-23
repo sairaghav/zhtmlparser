@@ -5,8 +5,11 @@ Tool Info : zhtmlparser; Version : 2.1; Coded with Python 2.7; Src : https://git
 [ pr2h ]
 
 Purpose    : This script is designed to parse html and obtain:
+	
 	1) content of a page
+	
 	2) tags used in the page
+	
 	3) content with tags
 
 OUTPUT EXAMPLE:
@@ -18,29 +21,29 @@ Commands used:
 
 Output:
 
-HTML TO PARSE: 
+	HTML TO PARSE: 
 
-<script sometag>22<span>22</span></script><span>hi<script>hiii</script><script>333</script>das</span>
+	<script sometag>22<span>22</span></script><span>hi<script>hiii</script><script>333</script>das</span>
 
-PARSED HTML: 
+	PARSED HTML: 
 
-2222hihiii333das
+	2222hihiii333das
 
-TAG_OUT: 
+	TAG_OUT: 
 
-<script sometag>
+	<script sometag>
 
-<script>
+	<script>
 
-<script>
+	<script>
 
-TEXT WITHIN TAG: 
+	TEXT WITHIN TAG: 
 
-22<span>22</span>
+	22<span>22</span>
 
-hiii
+	hiii
 
-333
+	333
 	
 USAGE AS API EXAMPLE:
 

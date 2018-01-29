@@ -60,7 +60,7 @@ Input:
 	print 'Extracted URLs : ',links
 
 	
-    ########## INPUT EXAMPLE - 2 ##########
+    ########## INPUT EXAMPLE - 2 (attributes example) ##########
     
 	# html_to_parse is the html input. Alternatively, any input can be provided by reading from a file as well
 	

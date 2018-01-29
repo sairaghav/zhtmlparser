@@ -67,7 +67,7 @@ In addition to specifying the tags, the user can also specify the attributes, se
 	
 	Extracted URLs :  ['https://somerandom1.com', 'https://somerandom2.com', 'something3.com']
 
-<b> INPUT EXAMPLE - 2 (attributes example)</b>
+<b> INPUT EXAMPLE - 2 (attributes example):</b>
 
     ########## INPUT EXAMPLE - 2 (attributes example) ##########
     

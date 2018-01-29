@@ -31,34 +31,25 @@ In addition to specifying the tags, the user can also specify the attributes, se
     
 	html_to_parse = '<a href = "https://somerandom1.com">hello</a><a href = "https://somerandom2.com">>><script>newworld</script></a><a href = "something3.com">what!</a><helloworld</script><a "https://">new</a>'
     
-	# zhp takes one input, the html to be parsed
-    
-	parsed_html = zhp(html_to_parse)
-    
-	# ztag takes <=3 inputs, the html input, the tag to be extracted and the number of tags to extract (0 indicates all tags)
-    
-	tag = ztag(html_to_parse,'a href',0)
-    
-	# ztagtext takes <=3 inputs, the html input, the tag (within which lies the text to be extracted) and the number of such texts to extract (0 indicates all tags)
-    
-	tagtext = ztagtext(html_to_parse,'a href',0)
-    
-	# urls takes <=2 inputs, the html input and number of URLs to be extracted (0 indicates all tags)
-    
-	links = urls(html_to_parse,0)
-        
-    
 	# Printing Output
     
 	print '\n\nHTML Input  : ',html_to_parse
+	
+	# zhp takes one input, the html to be parsed
     
-	print '\n\nParsed HTML : ',parsed_html
+	print '\n\nParsed HTML : ',zhp(html_to_parse)
+	
+	# ztag takes <=3 inputs, the html input, the tag to be extracted and the number of tags to extract (0 indicates all tags)
     
-	print 'Tags : ',tag
+	print 'Tags : ',ztag(html_to_parse,'a href',0)
+	
+	# ztagtext takes <=3 inputs, the html input, the tag (within which lies the text to be extracted) and the number of such texts to extract (0 indicates all tags)
     
-	print 'Text withing Tag : ',tagtext
+	print 'Text withing Tag : ',ztagtext(html_to_parse,'a href',0)
+	
+	# urls takes <=2 inputs, the html input and number of URLs to be extracted (0 indicates all tags)
     
-	print 'Extracted URLs : ',links
+	print 'Extracted URLs : ',urls(html_to_parse,0)
 
 <b>OUTPUT EXAMPLE - 1</b>
 

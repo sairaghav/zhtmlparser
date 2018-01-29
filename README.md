@@ -6,13 +6,14 @@ Tool Info : zhtmlparser; Version : 3.3; Coded with Python 2.7; Src : https://git
 
 Purpose    : This script is designed to parse html and obtain:
 	
-	1) content of a page
+1) content of a page
+
+2) tags used in the page
+
+3) content with tags
 	
-	2) tags used in the page
-	
-	3) content with tags
-	
-	4) URLs in a page
+4) URLs in a page
+
 
 NOTE: The comments in the code are detailed and provide an in-depth understanding of the processes being performed
 
@@ -20,9 +21,9 @@ This code can be used as API as well as independent program to parse html, obtai
 
 In addition to specifying the tags, the user can also specify the attributes, seperated by a ',' as given in INPUT EXAMPLE - 2 below.
 
-OUTPUT EXAMPLE:
+<b>OUTPUT EXAMPLE:</b>
 
-Input:
+<b>Input:</b>
 
     ########## INPUT EXAMPLE - 1 ##########
     
@@ -97,7 +98,7 @@ Input:
 
 
 	
-Output:
+<b>Output:</b>
 
 	########## OUTPUT EXAMPLE - 1 ##########
 

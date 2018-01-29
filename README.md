@@ -20,6 +20,8 @@ The speciality of this code is that each 'function' can function seperately with
 	
 OUTPUT EXAMPLE:
 
+Input: First 2 tags / text within tag from the HTML Input.
+
 Output:
 
 	HTML Input  :  <a href = "https://somerandom1.com">hello</a><a href = https://somerandom2.com">>><script>newworld</script></a><a href = "something"><helloworld</script>

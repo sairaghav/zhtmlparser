@@ -99,7 +99,7 @@ Input:
 	
 Output:
 
-	########## INPUT EXAMPLE - 1 ##########
+	########## OUTPUT EXAMPLE - 1 ##########
 
 
 	HTML Input  :  <a href = "https://somerandom1.com">hello</a><a href = "https://somerandom2.com">>><script>newworld</script></a><a href = "something3.com">what!</a><helloworld</script><a "https://">new</a>
@@ -115,7 +115,7 @@ Output:
 
 
 	
-	########## INPUT EXAMPLE - 2 (attributes example) ##########
+	########## OUTPUT EXAMPLE - 2 (attributes example) ##########
 
 
 	HTML Input  :  <span class = "helloworld">1</span><span>2</span><span = 1 class=2>3</span><span = 3 class=2>4</span>

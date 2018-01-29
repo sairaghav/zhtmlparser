@@ -35,15 +35,15 @@ In addition to specifying the tags, the user can also specify the attributes, se
     
 	parsed_html = zhp(html_to_parse)
     
-	# ztag takes <=3 inputs, the html input, the tag to be extracted and the number of tags to extract
+	# ztag takes <=3 inputs, the html input, the tag to be extracted and the number of tags to extract (0 indicates all tags)
     
 	tag = ztag(html_to_parse,'a href',0)
     
-	# ztagtext takes <=3 inputs, the html input, the tag (within which lies the text to be extracted) and the number of such texts to extract
+	# ztagtext takes <=3 inputs, the html input, the tag (within which lies the text to be extracted) and the number of such texts to extract (0 indicates all tags)
     
 	tagtext = ztagtext(html_to_parse,'a href',0)
     
-	# urls takes <=2 inputs, the html input and number of tags to be extracted
+	# urls takes <=2 inputs, the html input and number of URLs to be extracted (0 indicates all tags)
     
 	links = urls(html_to_parse,0)
         
@@ -71,15 +71,15 @@ In addition to specifying the tags, the user can also specify the attributes, se
     
 	parsed_html = zhp(html_to_parse)
     
-	# ztag takes <=3 inputs, the html input, the tag to be extracted and the number of tags to extract
+	# ztag takes <=3 inputs, the html input, the tag to be extracted and the number of tags to extract (0 indicates all tags)
 
     tag = ztag(html_to_parse,'span,class',0)
 
-    # ztagtext takes <=3 inputs, the html input, the tag (within which lies the text to be extracted) and the number of such texts to extract
+    # ztagtext takes <=3 inputs, the html input, the tag (within which lies the text to be extracted) and the number of such texts to extract (0 indicates all tags)
 
     tagtext = ztagtext(html_to_parse,'span,class',0)
 
-    # urls takes <=2 inputs, the html input and number of tags to be extracted
+    # urls takes <=2 inputs, the html input and number of URLs to be extracted (0 indicates all tags)
 
     links = urls(html_to_parse,0)
 

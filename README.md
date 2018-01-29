@@ -25,7 +25,7 @@ In addition to specifying the tags, the user can also specify the attributes, se
 
 <b>Input:</b>
 
-    <b>########## INPUT EXAMPLE - 1 ##########</b>
+    ########## INPUT EXAMPLE - 1 ##########
     
 	# html_to_parse is the html input. Alternatively, any input can be provided by reading from a file as well
     
@@ -61,7 +61,7 @@ In addition to specifying the tags, the user can also specify the attributes, se
 	print 'Extracted URLs : ',links
 
 	
-    <b>########## INPUT EXAMPLE - 2 (attributes example) ##########</b>
+    ########## INPUT EXAMPLE - 2 (attributes example) ##########
     
 	# html_to_parse is the html input. Alternatively, any input can be provided by reading from a file as well
 	
@@ -100,7 +100,7 @@ In addition to specifying the tags, the user can also specify the attributes, se
 	
 <b>Output:</b>
 
-	<b>########## OUTPUT EXAMPLE - 1 ##########</b>
+	########## OUTPUT EXAMPLE - 1 ##########
 
 
 	HTML Input  :  <a href = "https://somerandom1.com">hello</a><a href = "https://somerandom2.com">>><script>newworld</script></a><a href = "something3.com">what!</a><helloworld</script><a "https://">new</a>
@@ -116,7 +116,7 @@ In addition to specifying the tags, the user can also specify the attributes, se
 
 
 	
-	<b>########## OUTPUT EXAMPLE - 2 (attributes example) ##########</b>
+	########## OUTPUT EXAMPLE - 2 (attributes example) ##########
 
 
 	HTML Input  :  <span class = "helloworld">1</span><span>2</span><span = 1 class=2>3</span><span = 3 class=2>4</span>

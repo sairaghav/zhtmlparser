@@ -21,9 +21,9 @@ This code can be used as API as well as independent program to parse html, obtai
 
 In addition to specifying the tags, the user can also specify the attributes, seperated by a ',' as given in INPUT EXAMPLE - 2 below.
 
-<b>OUTPUT EXAMPLE:</b>
+<b>INPUT / OUTPUT EXAMPLES:</b>
 
-<b>Input:</b>
+<b>INPUT EXAMPLE - 1:</b>
 
     ########## INPUT EXAMPLE - 1 ##########
     
@@ -60,7 +60,24 @@ In addition to specifying the tags, the user can also specify the attributes, se
     
 	print 'Extracted URLs : ',links
 
+<b>OUTPUT EXAMPLE - 1</b>
+
+	########## OUTPUT EXAMPLE - 1 ##########
+
+
+	HTML Input  :  <a href = "https://somerandom1.com">hello</a><a href = "https://somerandom2.com">>><script>newworld</script></a><a href = "something3.com">what!</a><helloworld</script><a "https://">new</a>
+
+
+	Parsed HTML :  hello>>newworldwhat!<helloworldnew
 	
+	Tags :  ['<a href = "https://somerandom1.com">', '<a href = "https://somerandom2.com">', '<a href = "something3.com">']
+	
+	Text withing Tag :  ['hello', '>>newworld', 'what!']
+	
+	Extracted URLs :  ['https://somerandom1.com', 'https://somerandom2.com', 'something3.com']
+
+<b> INPUT EXAMPLE - 2</b>
+
     ########## INPUT EXAMPLE - 2 (attributes example) ##########
     
 	# html_to_parse is the html input. Alternatively, any input can be provided by reading from a file as well
@@ -98,21 +115,7 @@ In addition to specifying the tags, the user can also specify the attributes, se
 
 
 	
-<b>Output:</b>
-
-	########## OUTPUT EXAMPLE - 1 ##########
-
-
-	HTML Input  :  <a href = "https://somerandom1.com">hello</a><a href = "https://somerandom2.com">>><script>newworld</script></a><a href = "something3.com">what!</a><helloworld</script><a "https://">new</a>
-
-
-	Parsed HTML :  hello>>newworldwhat!<helloworldnew
-	
-	Tags :  ['<a href = "https://somerandom1.com">', '<a href = "https://somerandom2.com">', '<a href = "something3.com">']
-	
-	Text withing Tag :  ['hello', '>>newworld', 'what!']
-	
-	Extracted URLs :  ['https://somerandom1.com', 'https://somerandom2.com', 'something3.com']
+<b>OUTPUT EXAMPLE - 2 (attributes example):</b>
 
 
 	
